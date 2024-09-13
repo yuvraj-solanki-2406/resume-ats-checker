@@ -4,7 +4,7 @@ import streamlit as st
 import PyPDF2 as pdf
 import google.generativeai as genai
 
-GOOGLE_API = 'AIzaSyCdP-mKZjOqClld2oMq_LA3oIFIiOeOi6U'
+GOOGLE_API = ''
 
 genai.configure(api_key=GOOGLE_API)
 
